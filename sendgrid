@@ -1,0 +1,13 @@
+AIzaSyADPSnqPCiAQcbS6-B5s16X9_APLzLu25k
+
+
+
+
+
+curl --request POST \
+  'https://gmail.googleapis.com/gmail/v1/users/agrawalbabli17%40gmail.com/messages/send?key=AIzaSyADPSnqPCiAQcbS6-B5s16X9_APLzLu25k' \
+  --header 'Authorization: Bearer AIzaSyADPSnqPCiAQcbS6-B5s16X9_APLzLu25k' \
+  --header 'Accept: application/json' \
+  --header 'Content-Type: application/json' \
+  --data '{"raw":"RnJvbTogYWdyYXdhbGJhYmxpMTdAZ21haWwuY29tClRvOiBjaGV0YW55YWFncmF3YWxAZ21haWwuY29tClN1YmplY3Q6IFN1YmplY3QgVGV4dAoKQm9keSBUZXh0"}' \
+  --compressed

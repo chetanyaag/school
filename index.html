@@ -20,23 +20,12 @@
     <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/lightbox.css">
-<!--
 
-TemplateMo 569 Edu Meeting
-
-https://templatemo.com/tm-569-edu-meeting
-
--->
   </head>
 
 <body>
 
-  <!-- Sub Header -->
-  <div class="sub-header">
-    <div class="container">
 
-    </div>
-  </div>
 
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
@@ -48,11 +37,9 @@ https://templatemo.com/tm-569-edu-meeting
                       <a href="index.html" class="logo">
                           Success Support Academy
                       </a>
-                      <!-- ***** Logo End ***** -->
-                      <!-- ***** Menu Start ***** -->
                       <ul class="nav">
                           <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                          <li class="scroll-to-section"><a href="#">About us</a></li>
+                          <li class="scroll-to-section" onclick="about()"><a href="#">About us</a></li>
                           <!-- <li class="scroll-to-section"><a href="#apply">Apply Now</a></li>
                           <li class="scroll-to-section"><a href="#apply">Apply Now</a></li> -->
                           <!-- <li><a href="meetings.html">Meetings</a></li> -->
@@ -64,7 +51,6 @@ https://templatemo.com/tm-569-edu-meeting
                                   <li><a href="meeting-details.html">Meeting Details</a></li>
                               </ul>
                           </li> -->
-                          <li class="scroll-to-section"><a href="#courses">Courses</a></li> 
                           <li class="scroll-to-section"><a href="#contact">Contact Us</a></li> 
                       </ul>        
                       <a class='menu-trigger'>
@@ -113,7 +99,7 @@ https://templatemo.com/tm-569-edu-meeting
               <div class="icon">
                 <img src="assets/images/service-icon-01.png" alt="">
               </div>
-              <div class="down-content">
+              <div class="down-content" onclick="sst()">
                 <h4>Soft skill training</h4>
                 <p>Soft skills refer to a set of personal attributes, characteristics, and communication abilities that enable individuals </p>
               </div>
@@ -123,17 +109,17 @@ https://templatemo.com/tm-569-edu-meeting
               <div class="icon">
                 <img src="assets/images/service-icon-02.png" alt="">
               </div>
-              <div class="down-content">
+              <div class="down-content" onclick="careerC()">
                 <h4>Career counseling’s</h4>
                 <p>Counselling is a broad subject that focuses on assisting persons with their emotional well-being and prosperity.</p>
               </div>
             </div>
-            
+
             <div class="item">
               <div class="icon">
                 <img src="assets/images/service-icon-03.png" alt="">
               </div>
-              <div class="down-content">
+              <div class="down-content" onclick="report()">
                 <h4>Research support</h4>
                 <p>Research assignments are an integral part of any professional Undergraduate, Post-graduate and PhD scholars. Students need to go </p>
               </div>
@@ -143,7 +129,7 @@ https://templatemo.com/tm-569-edu-meeting
               <div class="icon">
                 <img src="assets/images/service-icon-02.png" alt="">
               </div>
-              <div class="down-content">
+              <div class="down-content"  onclick="intership()">
                 <h4>Internship and Placement support</h4>
                 <p>Internship is a part of any professional course where students get industry exposure for few weeks/months during their curricular.</p>
               </div>
@@ -153,7 +139,7 @@ https://templatemo.com/tm-569-edu-meeting
               <div class="icon">
                 <img src="assets/images/service-icon-03.png" alt="">
               </div>
-              <div class="down-content">
+              <div class="down-content"  onclick="policy()">
                 <h4>Policies/Terms and conditions</h4>
                 <p>We do not have any agents so do not trust on any calls/mails except following contact details:
                   Call/whatsapp: 7027525300.</p>
@@ -371,6 +357,27 @@ https://templatemo.com/tm-569-edu-meeting
         function submitFunc(){
           alert('Our Team Will contact you soon')
         }
+        function careerC(){
+                window.location.href="carrer.html"
+              }
+
+        function sst(){
+          window.location.href="sst.html"
+        }
+        function report(){
+          window.location.href="report.html"
+        }
+        function intership(){
+          window.location.href="intership.html"
+        }
+        function policy(){
+          window.location.href="policy.html"
+        }
+        function about(){
+          window.location.href="aboutus.html"
+        }
+
+
 
     </script>
 </body>
